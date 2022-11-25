@@ -9,7 +9,18 @@ nav{
     background-color: black;
     padding: 3rem;
 }
+nav div{
+    display: inline-block;
+}
+.logo img{
+    display: inline-block;
+    height: 7vh;
+    width: 5vw;
+    margin-right: 0.2rem;
+}
 ul{
+    position: absolute;
+    right: 10px;
     align-items: center;
     justify-content: center;
     display: flex;
@@ -24,7 +35,134 @@ li a{
     color: white;
 }
 li a:hover{
-    color: aquamarine;
-    font-size: 2.2rem;
+    color: cyan;
+}
+span{
+    color: white;
+    font-size: 3rem;
 }
 
+
+/* first Section */
+.first-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(img4.jpeg) ;
+}
+.second-cont{
+    margin-left: 18px;
+    /* text-align: center; */
+    align-items: center;
+    justify-content: center;
+}
+.second-cont h1{
+    color: white;
+    margin-bottom: 1.5rem;
+    font-size: 4.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.get{
+    cursor: pointer;
+    font-size: 1.2rem;
+    border-radius: 28px;
+    border: 2px solid black;
+    padding: 1rem;
+    color: black;
+    background-color: white;
+}
+.get:hover{
+    font-size: 1.3rem;
+}
+
+
+/* second section */
+.second-section{
+    text-align: center;
+}
+.heading{
+    font-size: 3rem;
+}
+.heading h1{
+    margin: 1.8rem;
+}
+.subsec{
+    width: 24vw;
+}
+.subsec h3{
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+.subsec p{
+    font-size: 1.2rem;
+}
+.sub{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+/* third-section */
+.third-section{
+    margin-top: 0.5rem;
+    background: url(colorful-g3424c5107_1280.png);
+    text-align: center;
+}
+.third-section h1{
+    padding-top: 4rem;
+    font-size: 4.5rem;
+}
+.third-section #head1{
+    padding-top: 0;
+    padding-bottom: 3rem;
+}
+/* fourth-section */
+.fourth-section{
+    margin: 2rem;
+}
+.fourth-section a{
+    text-decoration: none;
+    color: black;
+}
+
+/* fifth-section */
+.fifth-section{
+    text-align: center;
+    background: url(triangles-ga21f3cf80_1280.png);
+}
+.fifth-section h1{
+    color: blanchedalmond;
+    font-size: 4.5rem;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+}
+.fifth-section button{
+    margin-bottom: 5rem;
+}
+
+
+
+/* footer */
+footer{
+    background-color: black;
+    color: white;
+    
+}
+footer .logo{
+    margin-bottom: 5rem;
+}
+.foote{
+    text-align: center;
+    display: flex;
+}
+footer h2{
+    font-size: 1rem;
+}
+.foot{
+    width: 24vw;
+    margin-bottom: 2.5rem;
+}
+.foot img{
+    height: 3vh;
+    width: 3vw;
+}
